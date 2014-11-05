@@ -1,0 +1,45 @@
+{
+	"name" : "rixbeck/bolt-extension-skeleton",
+	"description" : "A skeleton extension",
+	"type" : "bolt-extension",
+	"keywords" : [
+		"skeleton"
+	],
+	"require" : {
+		"bolt/bolt" : ">=2.0.0,<3.0.0",
+		"php" : ">=5.3"
+	},
+	"license" : "GPL",
+	"authors" : [{
+			"name" : "John Doe",
+			"email" : "john.doe@provider.me"
+		}
+	],
+	"autoload" : {
+		"files" : [
+			"init.php"
+		],
+		"psr-4" : {
+			"VendorName\\BoltExtensionName\\" : [
+				"",
+				"src/"
+			]
+		}
+	},
+	"require-dev" : {
+		"rixbeck/bolt-tasks" : "dev-master"
+	},
+	"repositories" : [{
+			"type" : "vcs",
+			"url" : "https://github.com/rixbeck/bolt-tasks.git"
+		}
+	],
+	"extra" : {
+		"branch-alias" : {
+			"dev-master" : "2.0.*-dev"
+		},
+		"bolt-screenshots" : [
+			"screenshots/screenshot1.png"
+		]
+	}
+}
