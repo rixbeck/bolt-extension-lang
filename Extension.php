@@ -1,6 +1,6 @@
 <?php
 
-namespace Bolt\Extension\VendorName\BoltExtensionName;
+namespace Bolt\Extension\Rixbeck\Language;
 
 class Extension extends \Bolt\BaseExtension
 {

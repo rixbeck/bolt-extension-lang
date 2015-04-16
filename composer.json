@@ -1,9 +1,9 @@
 {
-	"name" : "rixbeck/bolt-extension-skeleton",
-	"description" : "A skeleton extension",
+	"name" : "rixbeck/languages",
+	"description" : "A bolt language select solution",
 	"type" : "bolt-extension",
 	"keywords" : [
-		"skeleton"
+		"language"
 	],
 	"require" : {
 		"bolt/bolt" : ">=2.0.0,<3.0.0",
@@ -11,8 +11,8 @@
 	},
 	"license" : "GPL",
 	"authors" : [{
-			"name" : "John Doe",
-			"email" : "john.doe@provider.me"
+			"name" : "Rix Beck",
+			"email" : "rix.beck@neologik.hu"
 		}
 	],
 	"autoload" : {
@@ -20,7 +20,7 @@
 			"init.php"
 		],
 		"psr-4" : {
-			"VendorName\\BoltExtensionName\\" : [
+			"Rixbeck\\Languages\\" : [
 				"",
 				"src/"
 			]
