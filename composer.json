@@ -20,7 +20,7 @@
 			"init.php"
 		],
 		"psr-4" : {
-			"Rixbeck\\Languages\\" : [
+			"Bolt\\Extension\\RixBeck\\Languages\\" : [
 				"",
 				"src/"
 			]
