@@ -1,1 +1,7 @@
 # Put your settings here
+
+homepage:
+    en: /pages
+    es: /paginas
+    hu: /oldalak
+

@@ -21,6 +21,6 @@
  * @copyright
  * @license   http://opensource.org/licenses/GPL-3.0 GNU Public License 3.0
  */
-use Bolt\Extension\Rixbeck\Languages\Extension;
+use Bolt\Extension\RixBeck\Languages\Extension;
 
 $app['extensions']->register(new Extension($app));
